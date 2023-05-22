@@ -3,7 +3,7 @@
 }
 
 :root {
-  --cell-size: 50px;
+  --cell-size: 30px;
   --mark-size: calc(var(--cell-size) * .5);
 }
 
@@ -123,15 +123,15 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 5rem;
+  font-size: 3rem;
   flex-direction: column;
 }
 
 .winning-message button {
   font-size: 3rem;
-  background-color: white;
+  background-color: orange;
   border: 1px solid black;
-  padding: .25em .5em;
+  padding: .10em .5em;
   cursor: pointer;
 }
 
