@@ -3,8 +3,8 @@
 }
 
 :root {
-  --cell-size: 100px;
-  --mark-size: calc(var(--cell-size) * .9);
+  --cell-size: 50px;
+  --mark-size: calc(var(--cell-size) * .5);
 }
 
 body {
